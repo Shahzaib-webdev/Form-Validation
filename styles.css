@@ -1,0 +1,44 @@
+body{
+    font-family: monospace;
+}
+
+#main-form{
+    background-color: antiquewhite;
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+    height: 500px;
+}
+
+.inputs{
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: beige;
+    border-radius: 5px;
+}
+
+label{
+    font-weight: bold;
+}
+
+#Submit:hover{
+    cursor: pointer;
+    color: whitesmoke;
+    width: 70px;
+    height: 30px;
+    border-radius: 25px;
+    background-color: rgb(102, 96, 88);
+}
+
+/* for error and success messages */
+
+#errorMessage{
+    text-align: center;
+    color: red; padding: 10px;
+}
+
+#Submitted{
+    color: green;
+    text-align: center;
+    display: none;
+}
